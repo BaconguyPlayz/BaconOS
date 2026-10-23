@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1234"/><stop offset=".48" stop-color="#17365a"/><stop offset="1" stop-color="#35204d"/></linearGradient>
+    <radialGradient id="aurora" cx="50%" cy="0%" r="90%"><stop stop-color="#7fffd1" stop-opacity=".68"/><stop offset=".4" stop-color="#55c6ff" stop-opacity=".28"/><stop offset="1" stop-color="#ac72ff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10294a"/><stop offset="1" stop-color="#071225"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <ellipse cx="800" cy="30" rx="850" ry="360" fill="url(#aurora)"/>
+  <path d="M0 660 240 430l178 167 190-270 203 257 203-190 266 266 185-154 215 183v211H0Z" fill="url(#mountain)"/>
+  <path d="M0 745 250 590l173 102 215-154 190 121 182-97 278 160 184-96 176 116v158H0Z" fill="#091326" opacity=".86"/>
+  <g fill="#fff" opacity=".75"><circle cx="166" cy="151" r="2"/><circle cx="310" cy="95" r="1.6"/><circle cx="469" cy="173" r="1.5"/><circle cx="1018" cy="116" r="2"/><circle cx="1247" cy="188" r="1.7"/><circle cx="1432" cy="104" r="1.4"/><circle cx="1360" cy="265" r="1.2"/></g>
+</svg>
